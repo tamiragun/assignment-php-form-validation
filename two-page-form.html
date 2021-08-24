@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Two page form validation</title>
+	</head>
+	<body>
+		<h2>Please fill in the following details:</h2>
+		<form method="post" action= "two-page-form-validation.php">
+		
+			<label for= "email">Email: </label><br>
+			<input type= "text" id= "email" name= "email"><br>
+						
+			<label for= "username">Username: </label ><br>
+			<input type= "text" id= "username" name= "username"><br>
+						
+			<label for= "password">Password: </label ><br>
+			<input type= "text" id= "password" name= "password"><br>
+						
+			<label for= "date_of_birth">Date of birth: </label ><br>
+			<input type= "date" id= "date_of_birth" name= "date_of_birth"><br>
+						
+			<label for="gender">Gender:</label>
+		    <div id="gender">
+		        <label for="male">Male</label>
+		        <input type="radio" value="male" id="male" name="gender">
+		        <label for="female">Female</label>
+		        <input type="radio" value="female" id="female" name="gender">
+		        <label for="other">Other</label>
+		        <input type="radio" value="other" id="other" name="gender">
+		    </div>
+			
+			<label for= "address">Address: </label ><br>
+			<textarea id= "address" name= "address" rows="4" cols="50"></textarea><br><br>
+						
+			<button type= "submit">Submit</button>
+			
+		</form>
+	</body>
+</html>
